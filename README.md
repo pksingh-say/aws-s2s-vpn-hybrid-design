@@ -43,7 +43,7 @@ including IKE and IPsec parameters.
 - Scalability considerations for multi-site expansion
 
 ## Routing & VPN Design
-Static routing over IPsec VPN
-AWS route tables point on-prem CIDR to VPN gateway
-No NAT used over VPN for simplicity and clarity
-Designed for easy migration to BGP in future
+- Static routing over IPsec VPN
+- AWS route tables point on-prem CIDR to VPN gateway
+- No NAT used over VPN for simplicity and clarity
+- Designed for easy migration to BGP in future
