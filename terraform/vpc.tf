@@ -7,4 +7,3 @@ resource "aws_vpc" "main" {
     Name = "hybrid-vpn-vpc"
   }
 }
-
