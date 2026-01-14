@@ -41,3 +41,9 @@ including IKE and IPsec parameters.
 - MTU and MSS considerations for VPN traffic
 - Tunnel failover handling
 - Scalability considerations for multi-site expansion
+
+## Routing & VPN Design
+Static routing over IPsec VPN
+AWS route tables point on-prem CIDR to VPN gateway
+No NAT used over VPN for simplicity and clarity
+Designed for easy migration to BGP in future
